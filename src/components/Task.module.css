@@ -1,0 +1,44 @@
+li {
+  display: flex;
+  align-items: center;
+  background: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  border-radius: 8px;
+  min-height: 4.5rem;
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+li svg {
+  cursor: pointer;
+}
+
+li span {
+  color: var(--gray-100);
+  line-height: 1.4;
+  margin: 0 0.75rem;
+  width: 100%;
+  word-break: break-all;
+  font-size: 0.875rem;
+}
+
+.check {
+  color: var(--purple);
+}
+
+.circle {
+  color: var(--blue);
+}
+
+.trash {
+  transition: color 0.1s;
+}
+
+.trash:hover {
+  color: var(--danger);
+}
+
+.completed {
+  text-decoration: line-through;
+  color: var(--gray-300);
+}
